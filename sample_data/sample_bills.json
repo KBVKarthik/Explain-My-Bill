@@ -1,0 +1,94 @@
+[
+  {
+    "title": "April Electricity Invoice",
+    "category": "Utilities",
+    "source": "sample_electricity.pdf",
+    "total_amount": 142.79,
+    "suspicious_score": 0.4,
+    "summary": "Your utility bill has 5 line items totaling $142.79. One item looks unclear or may need review.",
+    "line_items": [
+      {
+        "id": 1,
+        "description": "Base service charge",
+        "amount": 65.00,
+        "explanation": "This is the standard monthly service charge.",
+        "suspicious": "This charge may be unusual or discretionary.",
+        "flags": "Suspicious fee"
+      },
+      {
+        "id": 2,
+        "description": "Peak usage energy",
+        "amount": 48.32,
+        "explanation": "This charge is for your meter reading during peak energy times.",
+        "suspicious": "",
+        "flags": ""
+      },
+      {
+        "id": 3,
+        "description": "Environmental recovery fee",
+        "amount": 8.47,
+        "explanation": "This is a regulatory charge to recover environmental compliance costs.",
+        "suspicious": "",
+        "flags": ""
+      },
+      {
+        "id": 4,
+        "description": "Late payment fee",
+        "amount": 12.00,
+        "explanation": "This fee is charged because the previous payment was not received on time.",
+        "suspicious": "This charge may be unusual or discretionary.",
+        "flags": "Suspicious fee"
+      },
+      {
+        "id": 5,
+        "description": "Service adjustment",
+        "amount": 8.00,
+        "explanation": "This line appears to be a zero-dollar adjustment.",
+        "suspicious": "",
+        "flags": "Unclear term"
+      }
+    ]
+  },
+  {
+    "title": "May Phone Statement",
+    "category": "Telecom",
+    "source": "sample_phone.pdf",
+    "total_amount": 76.68,
+    "suspicious_score": 0.2,
+    "summary": "Your phone bill has 4 line items totaling $76.68. One item looks unclear or may need review.",
+    "line_items": [
+      {
+        "id": 1,
+        "description": "Monthly plan fee",
+        "amount": 45.00,
+        "explanation": "This is the contract service fee for the billing month.",
+        "suspicious": "",
+        "flags": ""
+      },
+      {
+        "id": 2,
+        "description": "International calls",
+        "amount": 12.15,
+        "explanation": "This charge is for international call usage.",
+        "suspicious": "",
+        "flags": ""
+      },
+      {
+        "id": 3,
+        "description": "Convenience charge",
+        "amount": 5.00,
+        "explanation": "This is a convenience charge associated with payment processing.",
+        "suspicious": "This charge may be unusual or discretionary.",
+        "flags": "Suspicious fee"
+      },
+      {
+        "id": 4,
+        "description": "Other adjustments",
+        "amount": 14.53,
+        "explanation": "The description is vague and may need clarification.",
+        "suspicious": "",
+        "flags": "Unclear term"
+      }
+    ]
+  }
+]

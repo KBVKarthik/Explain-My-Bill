@@ -1,0 +1,9 @@
+fastapi==0.137.1
+uvicorn[standard]==0.23.2
+sqlalchemy==2.0.28
+pydantic==2.13.4
+python-multipart==0.0.8
+fpdf2==2.8.7
+pytest==8.4.1
+requests==2.31.0
+python-slugify==8.0.4
